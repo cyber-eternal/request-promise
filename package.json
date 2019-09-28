@@ -1,0 +1,35 @@
+{
+  "name": "request-promise",
+  "version": "1.0.0",
+  "description": "Request module with promise implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyber-eternal/request-promise.git"
+  },
+  "keywords": [
+    "request",
+    "request-promise",
+    "request",
+    "promise",
+    "get",
+    "post",
+    "axios",
+    "http",
+    "client",
+    "util",
+    "simple"
+  ],
+  "author": "Edgar Sargsyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyber-eternal/request-promise/issues"
+  },
+  "homepage": "https://github.com/cyber-eternal/request-promise#readme",
+  "peerDependencies": {
+    "request": "^2.34"
+  }
+}
