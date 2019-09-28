@@ -1,4 +1,4 @@
-import * as request from 'request';
+var request = require('request')
 
 const options = ({
   url,
@@ -6,7 +6,7 @@ const options = ({
   body,
   headers = {}
 }) => {
-  const res: any = {
+  var res = {
     url,
     headers: { 'Content-Type': 'application/json', ...headers },
     method,
@@ -15,7 +15,7 @@ const options = ({
   return res;
 };
 
-export default ({
+var requestPromise = ({
   url,
   method,
   body,
@@ -27,7 +27,7 @@ export default ({
         method,
         body,
         headers
-      }), (error: any, response: any, body: any) => {
+      }), (error, response, body) => {
         error ? reject(error) : resolve({
           'body': body,
           'response': response,
@@ -40,3 +40,5 @@ export default ({
     }
   });
 };
+
+module.exports = requestPromise;
