@@ -1,6 +1,6 @@
 {
   "name": "request-promise-full",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Request module with promise implementation",
   "main": "index.js",
   "scripts": {
