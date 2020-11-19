@@ -1,8 +1,11 @@
 {
-  "name": "request-promise-full",
+  "name": "@cyber-eternal/request-promise-full",
   "version": "1.0.1",
   "description": "Request module with promise implementation",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "test"
   },
